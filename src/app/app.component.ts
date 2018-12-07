@@ -14,7 +14,7 @@ interface DataResponse {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'httptutorial';
+  title = 'Dank Actors';
   actors = new Array();
 
 

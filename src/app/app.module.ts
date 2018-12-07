@@ -4,10 +4,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { TypicodeInterceptor } from './typicode.interceptor';
+import { ActorsComponent } from './actors/actors.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ActorsComponent
   ],
   imports: [
     BrowserModule,
